@@ -45,6 +45,18 @@ body {
     align-items: center;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-logo .logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
 .nav-logo h1 {
     color: var(--primary-color);
     font-size: 1.5rem;
@@ -275,6 +287,14 @@ body {
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
+    }
+
+    .nav-logo .logo-img {
+        height: 40px;
+    }
+
+    .nav-logo h1 {
+        font-size: 1.2rem;
     }
 
     .nav-menu {
