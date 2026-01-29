@@ -68,6 +68,11 @@ body {
     color: var(--primary-color);
 }
 
+.nav-link.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
