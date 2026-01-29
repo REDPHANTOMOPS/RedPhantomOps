@@ -1,6 +1,6 @@
 # RedPhantomOps
 
-Official website for RedPhantomOps - Elite Cybersecurity & Red Team Operations.
+Official website for RedPhantomOps LLC - AI Safety & Defensive Cybersecurity Research.
 
 ## 🌐 Live Website
 
@@ -8,13 +8,16 @@ Visit us at: [https://redphantomops.com](https://redphantomops.com)
 
 ## 📋 About
 
-RedPhantomOps is a premier cybersecurity firm specializing in:
-- Penetration Testing
-- Red Team Operations
-- Security Audits
-- Application Security
-- Security Consulting
-- Compliance Testing
+RedPhantomOps LLC is a security research and engineering firm dedicated to safeguarding the continuity of life on Earth in the age of advanced artificial intelligence. We focus on:
+
+- AI Behavior Analysis
+- Autonomous System Containment
+- AI Auditing & Governance
+- Ethical Fail-Safes
+- Defensive Cybersecurity
+- Adversarial Systems Analysis
+
+Our mission is to ensure that intelligence—biological or artificial—remains compatible with the continued existence of life.
 
 ## 🚀 Local Development
 
@@ -62,7 +65,7 @@ RedPhantomOps/
 ## 🎨 Features
 
 - **Responsive Design:** Works seamlessly on desktop, tablet, and mobile devices
-- **Modern UI:** Clean, professional design with smooth animations
+- **Modern UI:** Clean, professional design focused on AI safety mission
 - **Fast Loading:** No external dependencies, pure vanilla JavaScript
 - **SEO Optimized:** Proper meta tags and semantic HTML
 - **Accessible:** WCAG compliant navigation and content structure
@@ -80,4 +83,4 @@ RedPhantomOps/
 
 ## 📄 License
 
-© 2026 RedPhantomOps. All rights reserved.
+© 2026 RedPhantomOps LLC. All rights reserved.
