@@ -259,6 +259,18 @@ body {
     color: var(--text-secondary);
 }
 
+.footer .motto {
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    color: var(--primary-color);
+    line-height: 1.8;
+}
+
+.footer .motto p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
