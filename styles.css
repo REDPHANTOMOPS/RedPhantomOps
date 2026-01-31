@@ -26,7 +26,7 @@
     --accent-cyan: #00E5FF;
     --accent-warm: #FF6B35;
     --text-color: #FFFFFF;
-    --text-secondary: #cccccc;
+    --text-secondary: #8B0000; /* dark red */
     --background-dark: #0A0F24;
     --background-darker: #050505;
     --accent-gradient: linear-gradient(135deg, #0A0F24 0%, #00E5FF 100%);
