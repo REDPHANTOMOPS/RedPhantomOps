@@ -1,4 +1,4 @@
-/* Background Accent (no custom logo) */
+/* Static Logo Background */
 .logo-bg {
     position: fixed;
     top: 0;
@@ -6,11 +6,12 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    /* Subtle abstract gradient accent in place of logo image */
-    background: radial-gradient(ellipse at center, rgba(0,229,255,0.06) 0%, rgba(255,107,53,0.03) 40%, transparent 100%);
+    background: url('https://github.com/user-attachments/assets/0d771b3c-32e2-4ae1-b34c-b3008e991898') center center no-repeat fixed;
     background-size: cover;
-    opacity: 0.15;
+    background-attachment: fixed;
+    opacity: 0.6;
     pointer-events: none;
+    aria-hidden: true;
 }
 /* Reset and Base Styles */
 * {
@@ -26,7 +27,7 @@
     --accent-cyan: #00E5FF;
     --accent-warm: #FF6B35;
     --text-color: #FFFFFF;
-    --text-secondary: #8B0000; /* dark red */
+    --text-secondary: #5A0000; /* darker red */
     --background-dark: #0A0F24;
     --background-darker: #050505;
     --accent-gradient: linear-gradient(135deg, #0A0F24 0%, #00E5FF 100%);
