@@ -3,12 +3,13 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 0;
-    background: url('https://github.com/user-attachments/assets/0d771b3c-32e2-4ae1-b34c-b3008e991898') center center no-repeat;
-    background-size: contain;
-    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('https://github.com/user-attachments/assets/0d771b3c-32e2-4ae1-b34c-b3008e991898') center center no-repeat fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.6;
     pointer-events: none;
 }
 /* Reset and Base Styles */
@@ -36,7 +37,7 @@ body {
     font-family: 'Orbitron', 'Montserrat', 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--background-dark);
+    background-color: transparent;
     position: relative;
     z-index: 1;
 }
@@ -53,12 +54,12 @@ body, body * {
 
 /* Navigation */
 .navbar {
-    background-color: var(--background-darker);
+    background-color: rgba(5, 5, 5, 0.95);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 10;
+    z-index: 100;
     box-shadow: 0 2px 10px rgba(0, 229, 255, 0.15);
 }
 
